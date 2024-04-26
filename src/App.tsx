@@ -6,6 +6,7 @@ import CakeConfigurator from './view/pages/cake-configurator';
 import FlavorFinder from './view/pages/flavor-finder';
 
 function App() {
+
   return (
     <Routes>
       <Route path='/' element={<Home/>}/>
