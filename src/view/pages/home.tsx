@@ -8,8 +8,8 @@ function Home() {
     <div>
       <h1>Mix and Magic</h1>
         <Button variant='outlined' onClick={() => navigate('/cake-configurator')}>Cake Configurator</Button>
-        <Button variant='outlined'>Personal Projects</Button>
-        <Button variant='outlined'>Flavor Finder</Button>
+        <Button variant='outlined' onClick={() => navigate('/flavor-finder')}>Flavor Finder</Button>
+        <Button variant='outlined' >Personal Projects</Button>
         <Button variant='outlined'>Refined Recipes</Button>
     </div>
   );
