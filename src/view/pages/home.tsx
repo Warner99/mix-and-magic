@@ -10,7 +10,7 @@ function Home() {
   return (
     <div>
       <h1>Mix and Magic </h1>
-        <Button variant='outlined' onClick={() => navigate('/cake-configurator')}>{t('cakeConfigurator')}</Button>
+        <Button variant='outlined' onClick={() => navigate('/cake-configurator')}>{t("cake configurator")}</Button>
         <Button variant='outlined' onClick={() => navigate('/flavor-finder')}>Flavor Finder</Button>
         <Button variant='outlined' >Personal Projects</Button>
         <Button variant='outlined'>Refined Recipes</Button>

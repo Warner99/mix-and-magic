@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector"
+import TranslationDE from "./de.json"
 
 
 i18n.use(LanguageDetector)
@@ -10,7 +11,7 @@ i18n.use(LanguageDetector)
         lng: 'de',
         resources: {
             en: {translation: { cakeConfigurator: "Cake Configurator",}},
-            de: {translation: { cakeConfigurator: "Kuchen-Konfigurator" }},
+            de: TranslationDE,
         }
     })
 
