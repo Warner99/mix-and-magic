@@ -1,0 +1,9 @@
+.frame{
+    display: flex;
+    flex-direction: column;    
+    height: 96vh;
+}
+
+.main{
+   padding-top: 64px;
+}
