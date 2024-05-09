@@ -9,7 +9,7 @@ function Home() {
             <Button variant='outlined' onClick={() => navigate('/cake-configurator')}>Cake Configurator</Button>
             <Button variant='outlined' onClick={() => navigate('/flavor-finder')}>Flavor Finder</Button>
             <Button variant='outlined' >Personal Projects</Button>
-            <Button variant='outlined'>Refined Recipes</Button>
+            <Button variant='outlined' onClick={() => navigate('/refined-recipes')}>Refined Recipes</Button>
     </div>
     
   );

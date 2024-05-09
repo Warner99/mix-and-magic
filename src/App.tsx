@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './view/pages/home';
 import CakeConfigurator from './view/pages/cake-configurator';
 import Layout from './view/components/layout/layout';
+import RefinedRecipes from './view/pages/refined-recipes';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path='*' element={<Home/>}/>
           <Route path='cake-configurator' element={<CakeConfigurator/>}/>
           <Route path='flavor-finder' element={<CakeConfigurator/>}/>
+          <Route path='refined-recipes' element={<RefinedRecipes/>}/>
       </Routes>
     </Layout>
   );
