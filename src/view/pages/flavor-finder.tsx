@@ -6,7 +6,7 @@ function FlavorFinder(){
         <div>
             <h1>Flavor Finder</h1>
             <CakeIcon sx={{color:"black"}}/>
-            
+            <p>Test Issue</p>
         </div>
     );
 }
