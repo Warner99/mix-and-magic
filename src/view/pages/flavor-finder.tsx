@@ -1,9 +1,12 @@
 
+import CakeIcon from '@mui/icons-material/Cake';
 function FlavorFinder(){
 
     return(
         <div>
-            <h1>Falvor Finder</h1>
+            <h1>Flavor Finder</h1>
+            <CakeIcon sx={{color:"black"}}/>
+            
         </div>
     );
 }
