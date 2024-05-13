@@ -5,7 +5,6 @@ import { MOCK_INGREDIENTS } from "./ingredient.model.mocks";
 
 export const MOCK_RECIPES: Recipe[]= [
     {
-        name: "Hazelnut Cloud Cake",
         ingredients: new Map<Ingredient,number>([
             [MOCK_INGREDIENTS[0], 300],
             [MOCK_INGREDIENTS[5], 200],
@@ -13,7 +12,7 @@ export const MOCK_RECIPES: Recipe[]= [
         ]),
         instructions: ['abc', 'cde','efg']
     },{
-        name: "Vanilla Buttercream",
+        //name: "Vanilla Buttercream",
         ingredients: new Map<Ingredient,number>([
             [MOCK_INGREDIENTS[7], 2],
             [MOCK_INGREDIENTS[6], 300],
@@ -22,7 +21,7 @@ export const MOCK_RECIPES: Recipe[]= [
         ]),
         instructions: ['aaa', 'bbb','ccc']
     },{
-        name: "Rasberry Sauce",
+        //name: "Rasberry Sauce",
         ingredients: new Map<Ingredient,number>([
             [MOCK_INGREDIENTS[2], 600],
             [MOCK_INGREDIENTS[5], 300],
