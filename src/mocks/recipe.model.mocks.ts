@@ -12,7 +12,6 @@ export const MOCK_RECIPES: Recipe[]= [
         ]),
         instructions: ['abc', 'cde','efg']
     },{
-        //name: "Vanilla Buttercream",
         ingredients: new Map<Ingredient,number>([
             [MOCK_INGREDIENTS[7], 2],
             [MOCK_INGREDIENTS[6], 300],
@@ -21,7 +20,6 @@ export const MOCK_RECIPES: Recipe[]= [
         ]),
         instructions: ['aaa', 'bbb','ccc']
     },{
-        //name: "Rasberry Sauce",
         ingredients: new Map<Ingredient,number>([
             [MOCK_INGREDIENTS[2], 600],
             [MOCK_INGREDIENTS[5], 300],
