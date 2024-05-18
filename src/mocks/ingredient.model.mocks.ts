@@ -31,6 +31,7 @@ export const MOCK_INGREDIENTS: Ingredient[]= [
     },
     { //5
         name: 'brown sugar',
+        flavor: 'caramel',
         category: 'sugar',
         unit: Unit.piece
     },{ //6
@@ -39,6 +40,7 @@ export const MOCK_INGREDIENTS: Ingredient[]= [
         unit: Unit.gram
     },{ //7
         name: 'vanilla extract',
+        flavor: 'vanilla',
         category: 'spices',
         unit: Unit.gram
     }
