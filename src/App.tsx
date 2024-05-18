@@ -12,8 +12,10 @@ function App() {
     <Layout>
       <Routes>
           <Route path='*' element={<Home/>}/>
+          <Route path='home' element={<Home/>}/>
           <Route path='cake-configurator' element={<CakeConfigurator/>}/>
           <Route path='flavor-finder' element={<FlavorFinder/>}/>
+          <Route path='refined-recipes' element={<RefinedRecipes/>}/>
       </Routes>
     </Layout>
   );

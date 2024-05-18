@@ -1,16 +1,14 @@
-import { Autocomplete, AutocompleteRenderInputParams } from "@mui/material";
-import { ReactNode } from "react";
-
-export function RecipeSearch(){
+import { Autocomplete, TextField } from "@mui/material";
+export interface RecipeSearchProps{
+    recipes: string[];
+}
+export function RecipeSearch({recipes}:RecipeSearchProps){
     return(
-    <div>
-        {/* <Autocomplete 
-            renderInput={function (params: AutocompleteRenderInputParams): ReactNode {
-                throw new Error("Function not implemented.");
-            } } options={[]}>
-            
-        </Autocomplete> */}
-        Search Bar
+    <div>   
+        <Autocomplete 
+            renderInput={(params) => <TextField {...params} label="Recipe" />} 
+            options={recipes}/>
+
     </div>);
 }
 export default RecipeSearch;

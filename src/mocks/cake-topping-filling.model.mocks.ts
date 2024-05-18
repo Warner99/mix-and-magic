@@ -9,7 +9,7 @@ export const MOCK_CAKE_TOPPING_FILLING: CakeToppingFilling[] = [
         recipe: MOCK_RECIPES[1],
         fondantCompatible: true
     },{
-        name: 'Rasberry Sauce',
+        name: 'Raspberry Sauce',
         type: [CakeType.filling],
         category: 'Sauce',
         recipe: MOCK_RECIPES[2]
