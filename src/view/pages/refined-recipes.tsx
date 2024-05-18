@@ -1,12 +1,11 @@
 import RecipeSearch from "../components/recipes/recipe-search";
-import { MOCK_CAKE_LAYERS } from "../../mocks/cake-layer.model.mocks";
-import { MOCK_CAKE_TOPPING_FILLING } from "../../mocks/cake-topping-filling.model.mocks";
 import CategoryFilter from "../components/recipes/category-filter";
 import FlavorFilter from "../components/recipes/flavor-filter";
 
 export function RefinedRecipes(){
     return(
     <div> 
+        {/* https://stackoverflow.com/questions/75818761/material-ui-autocomplete-warning-a-props-object-containing-a-key-prop-is-be */}
         <h1>Refined Recipes</h1>
         <RecipeSearch/>
         <FlavorFilter/>
